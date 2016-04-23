@@ -130,7 +130,9 @@ height:50px;
 border-radius:3px;
 border:2px solid #00afce;
     margin-left: 21px;
-    float:left;  
+    float:left;
+    display:inline-block;
+    cursor:pointer;
 }
 .btn-a img,
 .btn-g img{margin:8px;}
