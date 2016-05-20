@@ -1,0 +1,97 @@
+body{
+	color: #363636;
+}
+.navbar{
+	border-radius: 0;
+	text-align: right;
+	text-shadow: 1px 0 0 #a3a3a3;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	
+}
+.nav{
+	margin-left: 100px;
+	text-align: center;
+}
+.navbar-brand{
+	font-weight: 600;
+	font-size: 22px;
+}
+.navbar-inverse .navbar-brand {
+color: #fff;
+}
+
+.form{
+    width:70%;
+    margin:10% auto 0 ;
+}
+.form h3{
+    width:40%;
+    color:#338f00;
+    font-size:2em;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+input{
+     max-width:100% ;
+    border:1px solid #338e00;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px;
+    margin-bottom:10px;
+    padding:10px;
+}
+
+input[type="submit"]{
+     font-size:18px;
+    text-transform:uppercase;
+    height:40px;
+    padding:10px 42px;
+    color:#fff;
+    background:linear-gradient(to right,#ff531e,#ff5520);
+    border:2px solid#ff521c;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    -o-border-radius:3px;
+    border-radius:3px; 
+}
+
+@media screen and (max-width:240px){
+   .form{
+    margin:40% auto 0 ;} 
+    
+    .form h3{font-size:21px;}
+    
+    input[type="submit"]{
+    padding:10px 9px;
+}
+}
+
+@media screen and (min-width:241px) and (max-width:480px){
+   .form{
+    margin:20% auto 0 ;} 
+    
+     input[type="submit"]{
+         padding:10px 9px;}
+}
+
+
+@media screen and (min-width:481px) and (max-width:767px){
+   .form{
+    margin:20% 27% 0 ;} 
+    
+      input[type="submit"]{
+         padding:10px 9px;}
+}
+
+@media screen and (min-width:768px) and (max-width:980px){
+   .form{
+    margin-left:35%;} 
+    
+      input[type="submit"]{
+         padding:10px 9px;}
+}
