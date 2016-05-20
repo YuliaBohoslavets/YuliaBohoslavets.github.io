@@ -303,7 +303,9 @@ carousel  {
     color:#8c8c8c;
     font-size:16px;
     text-decoration:underline;
+    cursor:pointer;
 }
+.info p:hover{color:#ff3b0c;}
 .info p:last-child{
     margin-bottom:10px;
 }
@@ -330,8 +332,8 @@ form img{
 }
 input[type="number"]{
     float:right;
-    width:44%;
-    margin-right:37px;
+    width:38%;
+    margin-right:83px;
 }
 input[type="submit"]{
      font-size:18px;
