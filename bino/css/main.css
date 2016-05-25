@@ -3,12 +3,13 @@ body{
     color:#f3f4f8;
     background: #fff;
     font-size: 14px;
+    overflow-x:hidden;
 }
  
 .navbar{
 	border-radius: 0!important;
-    border-bottom: 0!important;
-    padding-left: 20%;
+    	border-bottom: 0!important;
+    	padding-left: 13%;
 	text-align: center;
 	position: fixed!important;
 	top: 0;
@@ -81,7 +82,6 @@ body{
 
 /*who we are*/
 .whowe{
-    padding-left: 16%;
     padding-top: 100px;
     text-align:center;
     
@@ -108,7 +108,6 @@ font-family: "SourceSansPro", sans-serif;
 
 /*about*/
 .about{
-    padding-left: 16%;
     padding-top:100px;
     padding-right:20px;
 }
@@ -139,15 +138,15 @@ font-family: "SourceSansPro", sans-serif;
 }
 
 .left-serv{
-    padding-top: 113px;
+    padding-top: 110px;
     float:left;
     padding-right:80px;
     margin-left:40%;
 }
 
 .services span{
-    float:right;
-    width:100%;
+    float:left;
+    width:0%;
 }
 .services h2{
     color: #f3f4f8;
