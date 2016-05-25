@@ -264,8 +264,9 @@ text-decoration: none;
 /*case study*/
 .case{
     text-align: center;
-    padding-top:56%;
+    padding-top:6%;
     background-color:#f4f5f9;
+    clear:both;
     }
 .case-cafe{
     margin-top:40px;
@@ -548,6 +549,9 @@ component.css
     font-size: 24px;
     font-weight: bold;
     text-transform:uppercase;
+}
+form{
+	width:95%;
 }
 .contactss .form-group{
     text-align: left;
