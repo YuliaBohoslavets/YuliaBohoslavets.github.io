@@ -1,0 +1,512 @@
+@import 'https://fonts.googleapis.com/css?family=PT+Sans';
+
+li{list-style:none;}
+
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    word-wrap: break-word;
+    background: #f5f5f5;}
+
+/*clearfix*/
+.clearfix:after,
+.wrapper:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+header .main-menu {
+    background: #FFF;
+    font-size: 14px;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top:16px;
+    padding-left:90px;
+    padding-right:80px;
+}
+/*menu*/
+header .main-menu .navbar-toggle {
+    margin-top: 18px;
+    border: none;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+header .main-menu .navbar-toggle .icon-bar {
+    background-color: #ff6200;
+    height: 5px;
+    width: 25px;
+    border-radius: 2px;
+}
+/*end menu*/
+header .main-menu .navbar-brand {
+    height: auto;
+    padding: 0 15px;
+}
+
+header .navbar-brand .logo-desktop {
+    display: block;
+}
+header .navbar-brand .logo-mob {
+    display: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header .menu-tel {
+    border-left: 1px solid #e5e5e5;
+    height: 73px;
+    padding: 11px 0 0 18px;
+    display: block;
+}
+
+.menu-tel li img {
+    padding-right: 8px;
+    padding-bottom: 3px;
+}
+
+header .menu-tel li {
+    float: none;
+    font-size: 13px;
+    text-align: justify;
+}
+
+header .menu-tel li span{
+    font-weight: normal;
+}
+
+header ul.menu {
+    margin-top: -7px;
+    margin-bottom: 0;
+}
+
+header .menu li a{
+   position:relative;
+    color:#ff6200;
+}
+header .menu li.activ-mob {
+   display:none;
+}
+
+header .menu li.active-link a:after,
+header .menu li a:hover:after{
+   content: '';
+    position:absolute;
+    left:13px;
+    right:13px;
+    display:block;
+    height:3px;
+    background:#ff6200; 
+}
+
+header .main-menu .navbar-nav>.active-link>a, header .main-menu .navbar-nav>.active-link>a:focus, header .main-menu .navbar-nav>.active-link>a:hover, header .main-menu .navbar-nav>li>a:focus, header .main-menu .navbar-nav>li>a:hover {
+    color: #ff6200; 
+}
+
+header .main-menu .navbar-nav>li>a {
+    color: #000;
+    padding: 14px 15px;
+    margin: 20px 25px 0;
+}
+
+header .menu li .navbar-nav>.active-mob{
+    display:none;
+}
+
+/*container*/
+article h1{
+    font-size:36px;
+    font-weight:bold;
+    letter-spacing: 1;
+    line-height:1.2;
+    text-transform: uppercase;
+}
+
+/*sprite*/
+.link{
+    display:block;
+    float:left;
+    background:#fff;
+    border-radius: 47%;
+    padding:10px 23px;
+    border:1px solid transparent;
+    box-shadow: 0px 1px 1px #777;
+}
+
+.link a{
+    display:inline-block;
+    font-size: 14px;
+    padding-left:30px;
+    padding-right: 1px;
+    text-decoration:none;
+    border-right: 1px solid #e5e5e5;
+    color:#666666;
+  background:url(../img/sprite.png) no-repeat;
+}
+.link a:last-child{
+    border-right:none;
+}
+
+.link a.look{
+    background-position:0 0;
+}
+.link a.follow{
+    background-position:-53px 0;
+}
+.link a.like{
+    background-position:-106px 0;
+}
+
+.autor{
+    float:right;
+    font-size:16px;
+    margin-top: 15px;
+}
+
+.autor .date{
+    color:#666;
+    padding-right:12px;
+    border-right:1px solid#e5e5e5;
+}
+
+.autor .name{
+    color: #ff6200;
+    font-weight:bold;
+    padding-left: 10px;
+    overflow:hidden;
+}
+
+.content{
+    margin-top:60px;
+}
+.autorfoto{
+    float:left;
+    margin-right:22px;
+}
+
+
+.social{
+    margin-bottom:20px;
+}
+.soc{
+    font-size:12px;
+    color:#fff;
+    width:60px;
+    height:30px;
+    margin-right:5px;
+    margin-bottom:5px;
+    padding-left:25px;
+ background:url(../img/social.png)no-repeat;
+    border-radius:20%;
+     border:1px solid transparent;
+}
+
+.vk{
+    background-color:#4d76a1;
+    background-position: 0 0;
+}
+.fb{
+    background-color:#3b5998;
+    background-position: 0 -38px;
+}
+.tw{
+    background-color:#55acee;
+    background-position: 0 -76px;
+}
+
+.content a{
+    color:#ff6200;
+}
+.say{
+    margin:30px 0 18px 0;
+}
+
+.pic1{
+    margin:37px 44px;
+}
+
+.footer{
+    background-color:#333;
+    margin-top:50px;
+    padding:22px 8%;
+    color:#fff;
+    font-size:12px;
+}
+
+.footerlogo{
+    margin-bottom:25px;
+}
+
+.device {
+    display:none;
+}
+.footer h4{
+    color:#ff6200;
+    text-transform:uppercase;
+    margin-left: 40px;
+    font-weight:bold;
+}
+
+.footer a{
+    color:#fff;
+    font-size:14px;
+    line-height:2;
+}
+
+.cont li{
+    line-height:2;
+}
+
+.footersocial{
+ background:url(../img/footersocial.png) no-repeat;
+    margin-top:20px;
+    margin-right:20px;
+    height:30px;
+}
+.f-vk{
+    background-position: 0 0;
+}
+
+.earth{
+    background:#424242;
+    color:#fff;
+    font-size:14px;
+}
+
+.earth li{
+    float:left;
+    margin-right:40px;
+    padding:17px 0;
+}
+
+
+@media (min-width: 768px) and (max-width: 979px){
+    header .navbar-brand .logo-desktop {
+    display: none;
+}
+    header .navbar-brand .logo-mob {
+    display: block;
+    margin:18px;
+}
+    header .main-menu {
+    margin-top: 20px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .30);
+    padding-left:22px;
+    padding-right:17px;
+}
+    header .menu-tel{
+        display:none;
+    }
+
+header .main-menu .navbar-brand {
+    height: auto;
+    padding: 0px;
+}
+
+header ul.menu {
+    margin-top: 18px;
+}
+header .menu li.activ-mob {
+   display:block;
+}
+    header .menu li.mob-menu {
+   display:none;
+}
+
+header .main-menu .navbar-nav>li>a {
+    padding: 4px 15px;
+    margin: 2px 5px 0;
+}
+
+
+.link{
+    border-radius: 37%;
+    padding:3px 23px;
+}
+
+
+.footer{
+    padding:22px 30px;
+    font-size:14px;
+}
+
+.footerlogo{
+    margin-bottom:20px;
+}
+.device {
+    display:block;
+    padding-left:1px;
+    margin:15px 0 25px;
+}
+    .deviceMob{
+        display:none;
+    }
+
+.footer h4{
+    margin-left: 40px;
+}
+    
+ .cont {display:none;}
+.footersocial{
+ display: none;
+}
+
+.earth{
+   display:none;
+}
+}
+
+@media (max-width: 767px){
+   .pic1{
+       margin:30px 0px;}
+       .footer{
+    padding:20px 20px;}
+    .earth li{
+    margin-right:10px;
+}
+} 
+    
+    
+    
+}
+@media (max-width: 480px){
+    header .navbar-brand .logo-desktop {
+    display: none;
+}
+    header .navbar-brand .logo-mob {
+    display: block;
+    margin:18px;
+}
+    header .main-menu {
+    margin-top: 20px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .30);
+    padding:0px;
+}
+    header .menu-tel{
+        display:none;
+    }
+
+header .main-menu .navbar-brand {
+    height: auto;
+    padding: 0px;
+}
+
+header .menu {
+    margin-top: 18px;
+    background:#e6e6e6;
+}
+    header .menu li{
+        border-bottom:1px solid #d6d6d6;
+        padding-top:20px;
+    }
+    
+    header .menu li.active-link a:after,
+header .menu li a:hover:after{
+   display:none
+}
+    
+header .menu li.activ-mob {
+   display:block;
+}
+    header .menu li.mob-menu {
+   display:none;
+}
+
+header .main-menu .navbar-nav>li>a {
+    padding: 4px 15px;
+    margin: 2px 5px 0;
+}
+
+article h1{
+    font-size:24px;
+    word-spacing: -2px;
+}
+    
+.link{
+    border-radius: 37%;
+    padding:1px 1px;
+}
+
+.link a{
+    font-size: 14px;
+    padding-left:22px;
+    padding-right: 5px;
+}
+.autor{
+    font-size:14px;
+    margin-top: 3px;
+    margin-right: -5px;
+}
+
+.autor .date{
+    padding-right:2px;
+}
+
+.autor .name{
+    padding-left: 1px;
+    
+}
+
+    .autorfoto{
+    margin:18px 22px;
+}
+.pic1{
+    margin:30px 0px;
+}
+
+.footer{
+    padding:20px 20px;
+}
+
+.footerlogo{
+    margin-bottom:20px;
+}
+    .deviceMob{
+        display:none;
+    }
+   
+.footer h4{
+    display:none;
+}  
+    .footer a{
+     float:left;
+    line-height:2;
+    padding-right: 15px;
+}
+
+.cont {
+   float:right;
+    padding-left: 5px;
+    letter-spacing:-1px;
+}
+.cont span{display: none;}
+    
+.footersocial{
+ display: none;
+}
+
+.earth{
+   display:none;
+}
+}
