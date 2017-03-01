@@ -1,0 +1,480 @@
+@media screen and (max-width:1230px){
+    .block-slider1 {
+    margin: 0 auto 0 auto;}
+    
+    .carousel-button-avto-right{
+        right:0%;}
+    .carousel-button-avto-left{
+        left:0%;}
+    
+    .car{
+    padding:2%;}
+}
+
+@media screen and (max-width:1068px){
+    
+    .block-search .logo p{
+    font-size:1.3em;}
+    
+    .carousel-caption h3{
+    font-size:2.5em;}
+    .menu{
+    width:100%;
+    max-width:97%;}
+    
+     .tire1, .tire2{
+    width:46%;
+    max-width: 46%;
+    margin-left:2%;}
+    
+    .img-border{
+    margin-top:1px;
+    max-height:136px;} 
+   
+}
+
+@media screen and (max-width:1035){
+    .block-search .logo p{
+    font-size:1em;}
+}
+@media screen and (max-width:1017px){
+    .block-search .logo p{
+    font-size:1.3em;}
+    
+    .carousel-caption h3{
+    font-size:2.7em;}
+    
+    .menu{
+    max-width:100%;}
+    .menu .navbar-nav{
+    padding-left:0;}
+    
+    .img-border{
+     max-height:136px;}
+}
+
+@media screen and (max-width:1002px){
+    header{
+        height: auto;
+        text-align: center;
+    }
+    .contact li{
+        display:inline-block;
+    }
+    .sprite a{margin-left:15px;}
+    .btn{margin-top:15px;}
+    
+    .icon-menu{
+        margin-top: -10%;
+    }
+    .carousel-caption h3{
+    font-size:2.5em;}
+    
+    .menu{
+    width:100%;
+    max-width:100%;}
+    .navbar-default .navbar-nav  a{
+    font-size: 1em;
+    padding-left: 2px;}
+    
+    .menu li.active a:after,
+    .menu li a:hover:after{
+    left:3px;}
+    
+    .img-border{
+    margin-top:0px;
+        height:165px;}
+}
+
+@media screen and (max-width:950px){    
+    .carousel-caption h3{
+    font-size:1.2em;}
+    
+    .img-border{
+    max-height:115px;}
+}
+
+@media screen and (max-width:890px){
+    header .btn{
+        margin-top:10px;
+    }
+    .block-search .details a{
+        margin-left: 1%;
+    }
+       
+    .sale img{
+        height:auto;
+    }  
+}
+
+
+@media screen and (max-width:847px){
+    
+    .block-search .details{
+        margin-top:2.5%;
+    }
+    .block-search .details a{
+        font-size:1em;
+    }
+     .carousel-caption h3{
+    font-size:1.5em;}
+    
+    .carousel-caption p {
+    margin-bottom: 2%;}
+    
+   .navbar-default .navbar-nav  a{
+    font-size: 0.9em;}
+    
+    .sale{
+        margin-top:-16%;
+    }
+    
+    .img-border{
+    height:110px;}
+}
+
+   
+@media screen and (max-width:803px){    
+    .carousel-caption h3{font-size: 1.3em;}
+    .carousel-caption p{
+    margin-bottom: 1%;}
+    
+    .navbar-default .navbar-nav  a{
+    font-size: 0.9em;}
+    
+    .tire1 .description,
+    .tire2 .description{
+    margin-top:35%;} 
+    
+    .img-border{
+    max-height:102px;}
+
+    
+    .block-shadow{
+        margin-left:2%;}
+    
+    .sale{margin-top:-15.8%;}
+    
+    .description{
+    margin-bottom: 1%;
+    margin-left: 5px;}
+}
+
+@media screen and (max-width:767px){
+    .block-shadow{
+        margin-left: 15%;
+    }
+    
+    .block-shadow img{
+        margin-bottom: 2%;
+    }
+    
+    .description{
+    margin-bottom: 25px;
+    margin-left: 25px;}
+    
+    .sale {
+    margin-top:0%;
+    margin-bottom: 0%;}
+    
+    .img-border{
+        width:43%;
+        height:166px;
+        max-height:166px;
+    }
+}
+
+@media screen and (max-width:697px){
+    .carousel-caption p{
+    margin-bottom: 2%;}
+    
+    .carousel-button-left{
+        right: -3%;
+    }
+    
+     .tire1, .tire2{
+   height:390px;
+    width:45%;
+    max-width: 45%;
+	margin-left:1%;}
+    
+    .carousel-button-avto-right{
+        right:3%;
+    }
+    
+    .carousel-button-avto-left{
+	left: %;
+}
+}
+
+@media screen and (max-width:663px){
+    .carousel-caption h3{
+    font-size:1em;}
+    
+    .img-border{
+    width:52%;}
+}
+
+@media screen and (max-width:640px){
+    .carousel-caption h3{
+    display: none;}
+    
+    .tire1, .tire2{
+   height:390px;
+    width:40%;
+    max-width: 40%;
+	margin-left:3%;}
+}
+@media screen and (max-width:621px){
+    .carousel-caption p{
+    margin-bottom: 2%;}
+    
+    .tire1 .description,
+    .tire2 .description{
+    margin-top:45%;
+    margin-left:7%;
+    }
+    
+}
+
+@media screen and (max-width:604px){
+    .carousel-caption p{
+    margin-bottom: 1%;}
+    
+    .block-search .logo p{
+        font-size:1.2em;
+    }
+}
+
+@media screen and (max-width:581px){
+    
+    .block-search .logo p{
+        font-size:1em;
+    }
+    
+   
+     .carousel-caption p{
+    font-size:0.9em;}
+}
+@media screen and (max-width:560px){
+    .block-search{
+        position:static;
+        margin-top:0;
+	     left: 0;
+	     margin-left: 1%;
+    }
+    
+    .block-search .logo p{
+    font-size:1em;
+    margin-top:20%;}
+    
+    .block-search .details{
+        margin-top:4%;
+    }
+    
+    .block-search .details a{
+        font-size:0.9em;
+    }
+    
+    
+    .carousel-caption h3{
+        display:inline-block;
+    }
+    .img-border{
+    width:63%;}
+   
+    
+    
+    .car{
+    margin-bottom: 8%;}
+
+}
+
+@media screen and (max-width:536px){
+     .logo{
+        margin-top:1%;
+    }
+    .block-search .logo img{
+        max-width:30px;
+    } 
+    
+    .block-search .logo p{
+        font-size:0.8em;
+    }
+    
+    .block-search .details a{
+        font-size:0.7em;
+    }
+   
+}
+
+@media screen and (max-width:492px){
+    
+    .carousel-caption h3{
+    display:none;}
+    
+    .mob-carousel{
+        max-height:120px;
+        overflow: hidden;
+    }
+    
+    .carousel-block{
+        max-width: 85%; 
+        margin-left: 7%;}
+    
+    .carousel-button-left{
+	right: -0%;}
+
+    .carousel-button-right{
+	left: 0%;} 
+    
+    .carousel-button-avto-right{
+        right: -0%;}
+    
+    .img-border{
+        width:80%;
+        height:166px;
+        max-height:166px;
+    }
+    
+    .block-car{
+    width:100%;}
+    
+    
+    
+}
+
+@media screen and (max-width:432px){
+    .block-search .logo img{
+        margin-top:10%;
+    }
+    .block-search .logo p{
+        display:none;
+    }
+    .block-search .details img{
+        display:none;
+    }
+    .block-search .details a{
+        font-size:0.9em;
+    }
+    
+    .carousel-caption p{
+    margin-bottom: 0%;
+    font-size:0.8em;}
+    
+    .carousel-indicators li {
+    display: none;}
+    
+    .tire1, .tire2{
+    width:40%;
+    max-width: 40%;
+}
+
+    .tire1 .description,
+    .tire2 .description{
+    margin-top:55%;}
+
+    .block-shadow img{
+        margin-bottom: 5%;}
+    
+    
+     .img-border{
+        width:80%;
+        height:166px;
+        max-height:166px;
+    }
+}
+    
+
+@media screen and (max-width:397px){
+    
+    .carousel-caption p{
+    margin-bottom: 0%;
+    font-size:0.7em;} 
+    
+    .mob-carousel{
+        max-height:115px;
+        overflow: hidden;
+    }
+    
+    .img-border{
+        width:91%;
+    }
+}
+
+@media screen and (max-width:380px){
+    .mob-carousel{
+        max-height:105px;
+        overflow: hidden;
+    }
+    
+    .block-shadow{
+        margin-left: 7%;
+    }
+    
+    .img-border{
+        width:85%;
+    }
+}
+@media screen and (max-width:348px){
+    .carousel-caption p{
+        font-size: 0.6em;
+    }
+    .mob-carousel{
+        max-height:100px;
+    }
+    
+    .block-shadow{margin-left:7%;} 
+    
+     .img-border{
+        width:92%;
+    }
+}
+
+@media screen and (max-width:332px){
+    .mob-carousel{
+        max-height:90px;
+    }
+}
+
+@media screen and (max-width:302px){
+    header .contact li{
+    font-size: 1em;
+}
+      .carousel-caption p{
+    font-size:0.6em;}
+    
+    .block-shadow{
+        margin-left:2%;
+    }
+    
+    .img-border{
+        width:100%;
+    }
+}
+
+@media screen and (max-width:272px){
+    header .sprit img{display:none;}
+    header .sprit a{
+     margin-right: 4%;}
+    
+    .carousel-caption p{
+    font-size:0.5em;
+    margin-bottom: -7%;
+    }
+    .carousel-indicators{display:none;}
+    
+    .block-new{
+    margin:0 1% 50px ;}
+    
+    .mob-carousel{
+        max-height:90px;
+    }
+    
+    .menu{
+    margin:2%;
+    width:94%;
+    max-width:94%;}
+    
+    .footer h3{font-size:1.2em;}
+}
